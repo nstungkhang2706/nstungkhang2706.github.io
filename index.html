@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Du Lịch LagiTour</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">Liên Hệ với chúng tôi :</p>
+
+            <p class="helpline-number">0908241642</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="Tourly logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/lagitourbinhthuan" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://x.com/NguynKh93317183?t=ej0rBoi80wVN5nULyoR59Q&s=09" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCxRg9KjoioKFnJ5nPqLQ9bA" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Trang chủ</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Giới thiệu</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>Điểm đến</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>Gói du lịch</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>Bộ sưu tập</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>Liên hệ chúng tôi</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Book Now</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title"> Du Lịch Cùng Lagi Tour</h2>
+
+          <p class="hero-text">
+            Trải nghiệm du lịch, tạo nên những cuộc phiêu lưu. Chúng tôi không chỉ là hướng dẫn  viên mà còn là người bạn đồng hành tin cậy của bạn, sẵn lòng tạo ra trải nghiệm khó quên trên mỗi chuyến đi. Cùng nhau đến với công ty chung tôi Lagi Tour
+          </p>
+
+          <!--div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+
+            <button class="btn btn-secondary">Book now</button>
+          </div-->
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Tìm Điểm Đến*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Nhập Điểm Đến"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Số Hành Khách*</label>
+
+              <input type="number" name="people" id="people" required placeholder="Sô Người Tham Gia" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Ngày Đăng Ký*</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Ngày Kết Thúc*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Tư Vấn Ngay</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">Khám Phá</p>
+
+          <h2 class="h2 section-title">Địa Điểm Nổi Tiếng</h2>
+
+          <p class="section-text">
+            Đây là một trong những địa điểm được các hành khách trong và ngoài nước đánh giá tích cực nhiều nhất và được Lagi Tour thêm vào trong từng hạng mục chuyến đi đề xuất phổ biến nhất.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Mũi Né</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Đồi Cát Bay</a>
+                  </h3>
+
+                  <p class="card-text">
+                     Đồi cát có hàng chục màu khác nhau có một không hai tại Việt Nam là điểm đến hấp dẫn của nhiều du khách.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Phan Thiết</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Làng chài Mũi Né</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Làng chài lâu đời nguyên sơ và mộc mạc với truyền thống đánh bắt cá nổi tiếng Bình Thuận
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Phan Thiết</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Tháp Poshanư</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Di tích kiến trúc Chăm có niên đại ngàn năm là sự tồn tại và sinh sôi nảy nở dân tộc Chăm
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+         <!--<button class="btn btn-primary">More destintion</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Các gói phổ biến</p>
+
+          <h2 class="h2 section-title">Những gói được chọn nhiều</h2>
+
+          <p class="section-text">
+            Gói du lịch không chỉ vừa tiện lợi mà còn phù hợp với đại đa số khách hàng muốn đi trải nghiệm nhiều nơi với thời gian dài mà không cần phải phát sinh qua nhiều chi phi cho việc đi lại.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch mũi né</h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm làng chài mũi né, suối tiên, đồi cát bay và bàu trắng.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">3D/2N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    4.500.000 VNĐ
+                    <span>/ hành khách</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt ngay</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch THáp poshanư</h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm làng chài mũi né, suối tiên, đồi cát bay, tháp poshanư.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">3D/2N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">Số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    3.300.000 VNĐ
+                    <span>/ Người</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt ngay</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch trọn gói</h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm Thác Bà Đami, Núi tà cú, Làng chài Mũi né, Suối Tiên, Bàu trắng và Tháp Poshanư.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">5D/4N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $6.000.000 VNĐ
+                    <span>/ Người</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt Ngay</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+			
+          <!--button class="btn btn-primary" >View All Packages</button>-->
+
+</div>
+		  <div id="expanded-info" style="display: none;">
+    <!-- Thêm thông tin cần mở rộng ra ở đây -->
+		<ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-4.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch núi tà cú</h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm khu du lịch núi Tà Cú và một số homestay tại bờ biển Mũi né
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">2D/1N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(15 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    1.500.000 VNĐ
+                    <span>/ hành khách</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt ngay</button>
+
+                </div>
+
+              </div>
+            </li>	
+			
+			<ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-5.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch NovaWorld</h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm làng chài mũi né, suối tiên, NovaWorld và đồi cát bay.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">2D/1N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(8 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star" rating="1"></ion-icon>
+      <ion-icon name="star" rating="2"></ion-icon>
+      <ion-icon name="star" rating="3"></ion-icon>
+      <ion-icon name="star" rating="4"></ion-icon>
+       <ion-icon name="star" class="highlighted" rating="5"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    1.900.000 VNĐ
+                    <span>/ hành khách</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt ngay</button>
+
+                </div>
+
+              </div>
+            </li>
+				
+				<ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-6.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch Bàu trắng</h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm Bàu trắng, đồi cát bay, Hòn rơm, tháp poshanư, biển cổ thạch.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">5D/4N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(19 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    5.800.000 VNĐ
+                    <span>/ hành khách</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt ngay</button>
+
+                </div>
+
+              </div>
+            </li>	
+			 
+					<ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-7.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch Làng chài </h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm khu du lịch Suôi tiên, đồi cát bay, làng chài Mũi Né.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">3D/2N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(11 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    2.500.000 VNĐ
+                    <span>/ hành khách</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt ngay</button>
+
+                </div>
+
+              </div>
+            </li>
+						
+						<ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-8.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Chuyến đi du lịch Mũi Kê Gà</h3>
+
+                  <p class="card-text">
+                    Địa điểm đến gồm khu du lịch núi Tà Cú, làng chài mũi né, đồi cát bay, Bàu trắng.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">4D/3N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">số lượng: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Bình Thuận</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(6 Đánh giá)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    3.700.000 VNĐ
+                    <span>/ hành khách</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Đặt ngay</button>
+
+                </div>
+
+              </div>
+            </li>	
+</div>
+		  
+		  <button class="btn btn-primary" onclick="expandInfo()">Hiển Thị Thêm</button>
+						
+					
+
+<script>
+function expandInfo() {
+    var expandedInfo = document.getElementById("expanded-info");
+    if (expandedInfo.style.display === "none") {
+        expandedInfo.style.display = "block";
+    } else {
+        expandedInfo.style.display = "none";
+    }
+}
+</script>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Bộ Sưu Tập Ảnh</p>
+
+          <h2 class="h2 section-title">Những Tấm Ảnh về các Chuyến đi</h2>
+
+          <p class="section-text">
+           Mỗi chuyến đi đều ẩn chứa những trải nghiệm mới mẻ và nhiều nhiều điều thú vị với việc bắt trọn từng khoảnh khắc trong mỗi khung hình là cách tuyệt vời để ghi nhớ và đánh dấu chuyến hành trình đó!
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Đến với LagiTour</p>
+
+            <h2 class="h2 section-title"> Trải nghiệm chuyến đi cùng Lagi Tour ! </h2>
+
+            <p class="section-text">
+              Không chỉ là chuyến đi, mà còn là một cuộc phiêu lưu! 
+Chúng tôi dẫn đường, 
+bạn tạo dấu ấn của riêng mình trong mỗi điểm đến. Mỗi chuyến đi với chúng tôi đều là một cuộc phiêu lưu khác biệt.
+				
+            </p>
+          </div>
+<a href="https://www.facebook.com/lagitourbinhthuan">
+          <button class="btn btn-secondary" style="margin-top: 0px; margin-bottom: 10px; margin-left: 0px; margin-right: 110px;">Liên Hệ Với Chúng Tôi !</button>
+</a>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            Một công ty du lịch tại Bình thuận với sứ mệnh mang lại sự hài lòng và trải nghiệm đáng tin cậy hoàn hảo cho khách hàng. Luốn tận tâm mang lại giá trị cốt lõi và uy tín hàng đầu.
+
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Hãy chọn gói và liên hệ với chúng tôi !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">0908241642</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">lagitourbinhthuan@gmail.com</a>
+            </li>
+
+           <li class="contact-item">
+    <ion-icon name="location-outline"></ion-icon>
+    <a href="https://www.google.com/maps/place/238+Nguy%E1%BB%85n+C%C3%B4ng+Tr%E1%BB%A9,+T%C3%A2n+An,+H%C3%A0m+T%C3%A2n,+B%C3%ACnh+Thu%E1%BA%ADn,+Vi%E1%BB%87t+Nam/@10.6835793,107.756854,17z/data=!3m1!4b1!4m6!3m5!1s0x3175c8d5b9b88ec5:0x7a2cdf82423024d7!8m2!3d10.6835793!4d107.7594343!16s%2Fg%2F11f105ynpd?hl=vi-VN&entry=ttu" target="_blank">
+        <address>238, NCT, Lagi, Bình Thuận</address>
+    </a>
+</li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Đăng ký trang của chúng tôi để biết thêm thông tin cập nhật và tin tức !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Nhập Email tại đây" required>
+
+            <button type="submit" class="btn btn-secondary">Đăng ký</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
